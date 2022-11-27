@@ -22,7 +22,7 @@
       "szyny": ["424Z:rails_01"],
       "kable": ["424Z:cables_01"],
       "cement": ["408S:all"],
-      "kruszywo": ["203V"],
+      "kruszywo": ["203V", "209c"],
       "techniczne": ["209c", "304Ca"]
     }
   },
