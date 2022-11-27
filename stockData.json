@@ -22,7 +22,7 @@
       "szyny": ["424Z:rails_01"],
       "kable": ["424Z:cables_01"],
       "cement": ["408S:all"],
-      "kruszywo": ["203V", "209c"],
+      "kruszywo": ["203V"],
       "techniczne": ["209c", "304Ca"]
     }
   },
@@ -1328,6 +1328,14 @@
         false,
         "140",
         "https://wiki.td2.info.pl/images/thumb/5/53/120a_PRREG_B9pv_01-1.png/300px-120a_PRREG_B9pv_01-1.png"
+      ],
+      [
+        "120a_PKP_Bwix_01",
+        "120a",
+        false,
+        false,
+        "80",
+        "https://wiki.td2.info.pl/images/thumb/c/c1/120a_PKP_Bwix_01.png/300px-120a_PKP_Bwix_01.png"
       ],
       [
         "154a_PKP_B10mnouz_01",
