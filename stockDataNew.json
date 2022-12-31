@@ -2054,7 +2054,7 @@
       "type": "412Z",
       "length": 20,
       "mass": 22,
-      "cargo": "sc_40_red:47;sc_40_blue:47;sc_40_green:47;sc_40_APL:47;sc_40_CMA:47;sc_40_Cosco:47;sc_40_Evr1:47;sc_40_Evr2:47;sc_40_Finnlin:47;sc_40_Hamb:47;sc_40_Hanjin:47;sc_40_Hapag:47;sc_40_HMM:47;sc_40_KLine:47;sc_40_Maers:47;sc_40_ONE:47;sc_40_OOCL:47;sc_40_Schav:47;sc_40_TD2:47;sc_40_Titan:47;sc_40_Toll:47;sc_20_red:56;sc_20_blue:56;sc_20_green:56;sc_20_APL:56;sc_20_CMA:56;sc_20_Cosco:56;sc_20_Evr1:56;sc_20_Evr2:56;sc_20_Finnlin:56;sc_20_Hamb:56;sc_20_Hanjin:56;sc_20_Hapag:56;sc_20_HMM:56;sc_20_KLine:56;sc_20_Maers:56;sc_20_ONE:56;sc_20_OOCL:56;sc_20_Schav:56;sc_20_TD2:56;sc_20_Titan:56;sc_20_Toll:56"
+      "cargo": "sc_40_red:47;sc_40_blue:47;sc_40_green:47;sc_40_APL:47;sc_40_CMA:47;sc_40_Cosco:47;sc_40_Evr1:47;sc_40_Evr2:47;sc_40_Finnlines:47;sc_40_Hamburg:47;sc_40_Hanjin:47;sc_40_HapagLloyd:47;sc_40_HMM:47;sc_40_KLine:47;sc_40_Maersk:47;sc_40_ONE:47;sc_40_OOCL:47;sc_40_Schavemaker:47;sc_40_TD2:47;sc_40_Titan:47;sc_40_Toll:47;sc_20_red:56;sc_20_blue:56;sc_20_green:56;sc_20_APL:56;sc_20_CMA:56;sc_20_Cosco:56;sc_20_Evr1:56;sc_20_Evr2:56;sc_20_Finnlines:56;sc_20_Hamburg:56;sc_20_Hanjin:56;sc_20_HapagLloyd:56;sc_20_HMM:56;sc_20_KLine:56;sc_20_Maersk:56;sc_20_ONE:56;sc_20_OOCL:56;sc_20_Schavemaker:56;sc_20_TD2:56;sc_20_Titan:56;sc_20_Toll:56"
     },
     { "type": "413S", "length": 14, "mass": 25, "cargo": "coal_Fas:69;sand_Fas:79;chalk_Fas:79" },
     {
@@ -2077,7 +2077,7 @@
       "type": "627Z",
       "length": 30,
       "mass": 29,
-      "cargo": "sc_40_red:79;sc_40_blue:79;sc_40_green:79;sc_40_APL:79;sc_40_CMA:79;sc_40_Cosco:79;sc_40_Evr1:79;sc_40_Evr2:79;sc_40_Finnlin:79;sc_40_Hamb:79;sc_40_Hanjin:79;sc_40_Hapag:79;sc_40_HMM:79;sc_40_KLine:79;sc_40_Maers:79;sc_40_ONE:79;sc_40_OOCL:79;sc_40_Schav:79;sc_40_TD2:79;sc_40_Titan:79;sc_40_Toll:79;sc_20_red:97;sc_20_blue:97;sc_20_green:97;sc_20_APL:97;sc_20_CMA:97;sc_20_Cosco:97;sc_20_Evr1:97;sc_20_Evr2:97;sc_20_Finnlin:97;sc_20_Hamb:97;sc_20_Hanjin:97;sc_20_Hapag:97;sc_20_HMM:97;sc_20_KLine:97;sc_20_Maers:97;sc_20_ONE:97;sc_20_OOCL:97;sc_20_Schav:97;sc_20_TD2:97;sc_20_Titan:97;sc_20_Toll:97"
+      "cargo": "sc_40_red:79;sc_40_blue:79;sc_40_green:79;sc_40_APL:79;sc_40_CMA:79;sc_40_Cosco:79;sc_40_Evr1:79;sc_40_Evr2:79;sc_40_Finnlines:79;sc_40_Hamburg:79;sc_40_Hanjin:79;sc_40_HapagLloyd:79;sc_40_HMM:79;sc_40_KLine:79;sc_40_Maersk:79;sc_40_ONE:79;sc_40_OOCL:79;sc_40_Schavemaker:79;sc_40_TD2:79;sc_40_Titan:79;sc_40_Toll:79;sc_20_red:97;sc_20_blue:97;sc_20_green:97;sc_20_APL:97;sc_20_CMA:97;sc_20_Cosco:97;sc_20_Evr1:97;sc_20_Evr2:97;sc_20_Finnlines:97;sc_20_Hamburg:97;sc_20_Hanjin:97;sc_20_HapagLloyd:97;sc_20_HMM:97;sc_20_KLine:97;sc_20_Maersk:97;sc_20_ONE:97;sc_20_OOCL:97;sc_20_Schavemaker:97;sc_20_TD2:97;sc_20_Titan:97;sc_20_Toll:97"
     },
     { "type": "Bau84", "length": 26, "mass": 40, "cargo": "" },
     { "type": "Gor77", "length": 69, "mass": 132, "cargo": "" },
