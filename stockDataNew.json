@@ -7,6 +7,7 @@
     },
     "cargo": {
       "kontenery": ["627Z:all", "412Z:all"],
+      "chłodnia": ["202Lc:all"],
       "drobnica": ["426S:all", "208Kf:all", "401Ka:all"],
       "węgiel": ["412W:coal_01", "413S:coal_Fas", "429W:coal_01"],
       "ruda": ["412W:ore_01", "401Zl:ore_35", "429W:ore_01"],
@@ -20,10 +21,11 @@
       "koła": ["424Z:wheels_01"],
       "drewno": ["424Z:woods_01", "424Z:woods_2"],
       "szyny": ["424Z:rails_01"],
-      "kable": ["424Z:cables_01"],
+      "kable": ["424Z:cables_01", "24Z:cables_Ks"],
       "cement": ["408S:all"],
       "kruszywo": ["59WS"],
-      "techniczne": ["209c", "304Ca"]
+      "techniczne": ["209c", "304Ca", "102a_PKPE"],
+      "poczta": ["211K:all"]
     }
   },
 
@@ -576,14 +578,7 @@
         false,
         "https://wiki.td2.info.pl/images/thumb/9/99/SM42-2612-1.png/300px-SM42-2612-1.png"
       ],
-      [
-        "SM42-2476",
-        "6D",
-        "sm42_cab",
-        "90",
-        false,
-        null
-      ],
+      ["SM42-2476", "6D", "sm42_cab", "90", false, null],
       [
         "SM42-2648",
         "6D",
@@ -710,6 +705,14 @@
       [
         "EN57-038",
         "5B",
+        "en57_cab",
+        "110",
+        false,
+        "https://wiki.td2.info.pl/images/thumb/5/5f/EN57-038-1.png/300px-EN57-038-1.png"
+      ],
+      [
+        "EN57-038",
+        "5Bg",
         "en57_cab",
         "110",
         false,
@@ -984,14 +987,6 @@
         false,
         "120",
         "https://wiki.td2.info.pl/images/thumb/3/31/102a_PKP_Bh_01.png/300px-102a_PKP_Bh_01.png"
-      ],
-      [
-        "102a_PKPE_siec_01",
-        "102a",
-        false,
-        false,
-        "120",
-        null
       ],
       [
         "111a_Grafitti_1",
@@ -1588,6 +1583,7 @@
     ],
 
     "car-cargo": [
+      ["102a_PKPE_siec_01", "102a", false, true, "120", null],
       [
         "59WS_PKPC_Fll_01",
         "59WS",
@@ -1596,7 +1592,7 @@
         "100",
         "https://wiki.td2.info.pl/images/thumb/7/74/203V_PKPC_Fll_01-1.png/300px-203V_PKPC_Fll_01-1.png"
       ],
-      ["24Z_PKPE_Ks_01", "24Z", true, false, "100", null],
+      ["24Z_PKPE_Ks_01", "24Z", true, false, "60", null],
       ["202Lc_PKP_Ichqrs_01", "202Lc", true, false, "100", null],
       ["202Lc_PKP_Jbchsx_01", "202Lc", true, false, "100", null],
       [
@@ -2031,11 +2027,11 @@
     { "type": "158a", "length": 26, "mass": 50, "cargo": "" },
     { "type": "159a", "length": 26, "mass": 50, "cargo": "" },
     { "type": "59WS", "length": 9, "mass": 12, "cargo": "stone_Fll:35" },
-  
+
     { "type": "24Z", "length": 14, "mass": 14, "cargo": "cables_Ks:32" },
     { "type": "202Lc", "length": 12, "mass": 16, "cargo": "meat_25%:20;meat_50%:24;meat_75%:29;meat_100%:33" },
     { "type": "211K", "length": 12, "mass": 16, "cargo": "mail_25%:18;mail_50%:21;mail_75%:23;mail_100%:26" },
-    
+
     { "type": "208Kf", "length": 14, "mass": 15, "cargo": "mass_20:35;mass_30:45;mass_40:55" },
     { "type": "209c", "length": 25, "mass": 43, "cargo": "" },
     { "type": "29R", "length": 13, "mass": 23, "cargo": "mass_20:43;mass_30:53;mass_40:63" },
@@ -2122,3 +2118,4 @@
     "627Z": "kontenery"
   }
 }
+
