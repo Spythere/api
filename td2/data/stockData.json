@@ -304,9 +304,9 @@
     { "type": "154a", "length": 26, "mass": 55, "cargo": "" },
     { "type": "158a", "length": 26, "mass": 50, "cargo": "" },
     { "type": "159a", "length": 26, "mass": 50, "cargo": "" },
-    { "type": "59WS", "length": 9, "mass": 12, "cargo": "stone_Fll:35;" },
+    { "type": "59WS", "length": 9, "mass": 12, "cargo": "stone_Fll:35" },
 
-    { "type": "24Z", "length": 14, "mass": 14, "cargo": "cables_Ks:32;" },
+    { "type": "24Z", "length": 14, "mass": 14, "cargo": "cables_Ks:32" },
     { "type": "202Lc", "length": 12, "mass": 16, "cargo": "meat_25%:20;meat_50%:24;meat_75%:29;meat_100%:33" },
     { "type": "211K", "length": 12, "mass": 16, "cargo": "mail_25%:18;mail_50%:21;mail_75%:23;mail_100%:26" },
 
