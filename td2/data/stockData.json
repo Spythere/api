@@ -23,7 +23,7 @@
       "szyny": ["424Z:rails_01"],
       "kable": ["424Z:cables_01", "24Z:cables_Ks"],
       "cement": ["408S:all"],
-      "kruszywo": ["59WS"],
+      "kruszywo": ["59WS:all"],
       "techniczne": ["209c", "304Ca", "102a_PKPE"],
       "poczta": ["211K:all"]
     }
@@ -233,10 +233,10 @@
     ],
     "car-cargo": [
       ["102a_PKPE_siec_01", "102A", false, true, "120"],
-      ["59WS_PKPC_Fll_01", "203V", true, false, "100"],
+      ["59WS_PKPC_Fll_01", "59WS", true, false, "100"],
       ["202Lc_PKP_Jbchsx_01", "202Lc", true, false, "100"],
       ["202Lc_PKP_Ichqrs_01", "202Lc", true, false, "100"],
-      ["208Kf_PKPC_Gbs_01", "Gbs", true, false, "100"],
+      ["208Kf_PKPC_Gbs_01", "208Kf", true, false, "100"],
       ["209c_PKP_DS_01", "209c", false, false, "120"],
       ["211K_PKP_UsUx_01", "211K", true, false, "100"],
       ["24Z_PKPE_Ks_01", "24Z", true, false, "60"],
