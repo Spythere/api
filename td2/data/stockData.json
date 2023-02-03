@@ -156,7 +156,7 @@
     "car-passenger": [
       ["101a_PKP_Bhixt_01", "101a", false, false, "80"],
       ["102a_PKP_Bh_01", "102a", false, false, "120"],
-      ["111a_Grafitti", "111a", false, false, "120"],
+      ["111a_Grafitti_1", "111a", false, false, "120"],
       ["111a_PKP_Bwxz_01", "111a", false, false, "120"],
       ["110a_PKP_Bcwxz_01", "110a", false, false, "140"],
       ["110a_PKPIC_Bcdu_01", "110a", false, false, "160"],
