@@ -297,7 +297,11 @@
     { "type": "102E", "length": 16, "mass": 80, "cargo": null },
     { "type": "203e", "length": 32, "mass": 167, "cargo": null },
     { "type": "303e", "length": 16, "mass": 83, "cargo": null },
+    { "type": "303e-TV", "length": 16, "mass": 83, "cargo": null },
+    { "type": "303e-ZEZ", "length": 16, "mass": 83, "cargo": null },
     { "type": "4e", "length": 16, "mass": 80, "cargo": null },
+    { "type": "4e-TV", "length": 16, "mass": 80, "cargo": null },
+    { "type": "4e-ZEZ", "length": 16, "mass": 80, "cargo": null },
     { "type": "AEI E", "length": 16, "mass": 80, "cargo": null },
     { "type": "6D", "length": 14, "mass": 74, "cargo": null },
     { "type": "SPA-66", "length": 14, "mass": 23, "cargo": null },
@@ -408,6 +412,12 @@
     "627Z": "kontenery"
   }
 }
+
+
+
+
+
+
 
 
 
