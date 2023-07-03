@@ -253,7 +253,7 @@
       ["202Lc_PKP_Jbchsx_01", "202Lc", true, false, "100"],
       ["202Lc_PKP_Ichqrs_01", "202Lc", true, false, "100"],
       
-      ["206S_Cement_Ucs_01", "206S", true, true, "100"],
+      ["206S_CEMENT_Ucs_01", "206S", true, true, "100"],
       ["206S_SPEED_Ucs_01", "206S", true, true, "100"],
       ["206Sh_PKP_Ugpps_01", "206Sh", true, true, "100"],
       ["206Sh_PKPC_Ugpps_01", "206Sh", true, true, "100"],
@@ -351,7 +351,7 @@
     { "type": "24Z", "length": 14, "mass": 14, "cargo": "cables_Ks:32" },
     { "type": "202Lc", "length": 12, "mass": 16, "cargo": "meat_25%:20;meat_50%:24;meat_75%:29;meat_100%:33" },
 
-    { "type": "206S_Cement", "length": 12, "mass": 14, "cargo": "lime_3:31;soda_3:35;cement_3:38" },
+    { "type": "206S_CEMENT", "length": 12, "mass": 14, "cargo": "lime_3:31;soda_3:35;cement_3:38" },
     { "type": "206S_SPEED", "length": 12, "mass": 15, "cargo": "lime_3:32;soda_3:36;cement_3:39" },
     { "type": "206Sh_PKP", "length": 12, "mass": 12, "cargo": "wheat_3:39;corn_3:39;forage_3:30" },
     { "type": "206Sh_PKPC", "length": 12, "mass": 12, "cargo": "wheat_3:39;corn_3:39;forage_3:30" },
