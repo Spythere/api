@@ -30,7 +30,7 @@
       "drewno": ["424Z:woods_01", "424Z:woods_2"],
       "szyny": ["424Z:rails_01"],
       "kable": ["424Z:cables_01", "24Z:cables_Ks", "401Ze:cables_02"],
-      "cement": ["408S:all"],
+      "cement": ["408S:all","206S_CEMENT:cement_3","206S_SPEED:cement_3"],
       "kruszywo": ["59WS:all"],
       "techniczne": ["209c", "304Ca", "102a_PKPE"],
       "poczta": ["211K:all"]
