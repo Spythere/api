@@ -31,10 +31,15 @@
       "drewno": ["424Z:woods_01", "424Z:woods_2"],
       "szyny": ["424Z:rails_01"],
       "kable": ["424Z:cables_01", "24Z:cables_Ks", "401Ze:cables_02"],
-      "cement": ["408S:all", "206S_CEMENT:cement_3", "206S_SPEED:cement_3"],
       "kruszywo": ["59WS:all"],
       "techniczne": ["209c", "304Ca", "102a_PKPE"],
-      "poczta": ["211K:all"]
+      "poczta": ["211K:all"],
+      "cement": ["408S:all", "206S_CEMENT:cement_3", "206S_SPEED:cement_3"],
+      "wapno": ["408S:all", "206S_CEMENT:lime_3", "206S_SPEED:lime_3"],
+      "soda": ["408S:all", "206S_CEMENT:soda_3", "206S_SPEED:soda_3"],
+      "pszenica": ["206Sh_PKP_Ugpps:wheat_3", "206Sh_PKPC_Ugpps:wheat_3"],
+      "kukurydza": ["206Sh_PKP_Ugpps:corn_3", "206Sh_PKPC_Ugpps:corn_3"],
+      "pasza": ["206Sh_PKP_Ugpps:forage_3", "206Sh_PKPC_Ugpps:forage_3"]
     }
   },
 
