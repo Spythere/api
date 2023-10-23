@@ -11,15 +11,7 @@
       "drobnica": ["426S:all", "208Kf:all", "401Ka:all"],
       "węgiel": ["412W:coal_01", "413S:coal_Fas", "429W:coal_01", "401Zb:coal_02"],
       "ruda": ["412W:ore_01", "401Zl:ore_35", "429W:ore_01"],
-      "piasek": [
-        "412W:sand_01",
-        "412W:sand_02",
-        "413S:sand_Fas",
-        "401Zl:sand_30",
-        "429W:sand_01",
-        "429W:sand_02",
-        "401Zb:sand_03"
-      ],
+      "piasek": ["412W:sand_01", "412W:sand_02", "413S:sand_Fas", "401Zl:sand_30", "429W:sand_01", "429W:sand_02", "401Zb:sand_03"],
       "kreda": ["413S:chalk_Fas"],
       "kamień": ["412W:stone_01", "412W:stone_50", "401Zl:stone_25", "429W:stone_01", "401Zb:stone_02"],
       "złom": ["412W:scrap_01", "412W:scrap_02", "429W:scrap_01", "429W:scrap_02"],
@@ -39,6 +31,16 @@
 
   "info": {
     "loco-e": [
+      ["EP09-003", "104E", "104e_cab", "160", true],
+      ["EP09-010", "104E", "104e_cab", "160", true],
+      ["EP09-012", "104E", "104e_cab", "160", true],
+      ["EP09-013", "104E", "104e_cab", "160", true],
+      ["EP09-020", "104E", "104e_cab", "160", true],
+      ["EP09-023", "104E", "104e_cab", "160", true],
+      ["EP09-024", "104E", "104e_cab", "160", true],
+      ["EP09-030", "104E", "104e_cab", "160", true],
+      ["EP09-034", "104E", "104e_cab", "160", true],
+
       ["EP08-006", "102E", "4ea_cab", "140", false],
       ["EP08-006v2", "102E", "4ea_cab", "140", false],
       ["ET41-061", "203e", "203e_cab_ld", "125", false],
@@ -300,8 +302,15 @@
       ["412Z_PKPC_Sgs_01", "412Z", true, false, "120"],
       ["413S_PKPC_Fas_01", "413S", true, false, "100"],
       ["413S_PKPC_Fas_02", "413S", true, false, "100"],
+
+      ["421S_PKP_Uas-x_01", "421S", true, true, "100"],
+      ["421S_PKP_Uas-x_02", "421S", true, true, "100"],
+      ["425S_PKPC_Simms_01", "425S", true, true, "120"],
+      ["425S_PKPC_Simms_02", "425S", true, true, "120"],
       ["424Z_PKPC_Res_01", "424Z", true, false, "100"],
       ["424Z_PKPC_Res_02", "424Z", true, false, "100"],
+
+      ["426Z_PKPC_Smms_01", "426Z", true, true, "100"],
       ["426S_PKPC_Sis_01", "426S", true, false, "120"],
       ["426S_PKPC_Sis_02", "426S", true, false, "120"],
       ["426S_PKPC_Sis_03", "426S", true, false, "120"],
@@ -411,12 +420,18 @@
       "cargo": "sc_40_red:47;sc_40_blue:47;sc_40_green:47;sc_40_APL:47;sc_40_CMA:47;sc_40_Cosco:47;sc_40_Evr1:47;sc_40_Evr2:47;sc_40_Finnlines:47;sc_40_Hamburg:47;sc_40_Hanjin:47;sc_40_HapagLloyd:47;sc_40_HMM:47;sc_40_KLine:47;sc_40_Maersk:47;sc_40_ONE:47;sc_40_OOCL:47;sc_40_Schavemaker:47;sc_40_TD2:47;sc_40_Titan:47;sc_40_Toll:47;sc_20_red:56;sc_20_blue:56;sc_20_green:56;sc_20_APL:56;sc_20_CMA:56;sc_20_Cosco:56;sc_20_Evr1:56;sc_20_Evr2:56;sc_20_Finnlines:56;sc_20_Hamburg:56;sc_20_Hanjin:56;sc_20_HapagLloyd:56;sc_20_HMM:56;sc_20_KLine:56;sc_20_Maersk:56;sc_20_ONE:56;sc_20_OOCL:56;sc_20_Schavemaker:56;sc_20_TD2:56;sc_20_Titan:56;sc_20_Toll:56"
     },
     { "type": "413S", "length": 14, "mass": 25, "cargo": "coal_Fas:69;sand_Fas:79;chalk_Fas:79" },
+
     {
       "type": "424Z",
       "length": 20,
       "mass": 23,
       "cargo": "wheels_01:39;woods_01:33;woods_2:43;rails_01:53;cables_01:36"
     },
+
+    { "type": "421S", "length": 12, "mass": 33, "cargo": "carbide_01:72" },
+    { "type": "425S", "length": 12, "mass": 23, "cargo": "mass_20:43;mass_30:53;mass_40:63" },
+    { "type": "426Z", "length": 12, "mass": 20, "cargo": "none_2:20;tank_01:34;truck_01:27;vehicles_01:24" },
+
     { "type": "426S", "length": 20, "mass": 29, "cargo": "mass_20:49;mass_30:59;mass_40:69" },
     {
       "type": "429W",
@@ -436,48 +451,5 @@
     { "type": "Bau84", "length": 26, "mass": 40, "cargo": null },
     { "type": "Gor77", "length": 69, "mass": 132, "cargo": null },
     { "type": "Gor89", "length": 27, "mass": 42, "cargo": null }
-  ],
-  "usage": {
-    "Gor89": "wagon pasażerski",
-    "Gor77": "wagon pasażerski",
-    "Bau84": "wagon pasażerski",
-    "612a": "wagon pasażerski",
-    "504a": "wagon pasażerski",
-    "304c": "wagon pasażerski",
-    "159a": "wagon pasażerski",
-    "158a": "wagon pasażerski",
-    "154a": "wagon pasażerski",
-    "120a": "wagon pasażerski",
-    "113a": "wagon pasażerski",
-    "112a": "wagon pasażerski",
-    "111a": "wagon pasażerski",
-    "110a": "wagon pasażerski",
-    "101a": "wagon pasażerski",
-    "102a": "wagon pasażerski",
-    "102A": "wagon techniczny (sieciowy)",
-    "24Z": "bębny z drutami miedzianymi",
-    "202Lc": "wagon chłodnia",
-    "206S": "cement, wapno, soda",
-    "206Sh": "przenica, kukurydza, pasza",
-    "211K": "wagon do przesyłek ekspresowych",
-    "59WS": "kruszywo, kamień wapienny, odpady kopalniane",
-    "208Kf": "drobnica, ładunki sypkie, ładunki sztukowe",
-    "209c": "wagon techniczny",
-    "29R": "produkty naftowe",
-    "29R_PLPOL": "melasa",
-    "304Ca": "pojazd specjalny",
-    "401Ka": "drobnica, ładunki sypkie, ładunki sztukowe",
-    "401Ze": "płyty betonowe, bębny kablowe, stal",
-    "401Zb": "węgiel, kamień, piasek",
-    "401Zl": "ładunki sypkie o dużej masie usypowej",
-    "408S": "cement, wapno, popioły lotne, żużel",
-    "412W": "drobnica, kruszywo, węgiel",
-    "412Z": "kontenery",
-    "413S": "węgiel, kreda, piasek",
-    "424Z": "ładunki skupione, pojazdy, dłużyca",
-    "426S": "drobnica",
-    "429W": "towary masowe odporne na warunki atmosferyczne (węgiel, ruda)",
-    "441V": "węgiel kamienny, żwir",
-    "627Z": "kontenery"
-  }
+  ]
 }
