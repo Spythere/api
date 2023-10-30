@@ -1,4 +1,5 @@
 {
+  "version": "2023.2.1",
   "generator": {
     "passenger": {
       "PKP_IC": [],
@@ -22,10 +23,15 @@
       "drewno": ["424Z:woods_01", "424Z:woods_2"],
       "szyny": ["424Z:rails_01"],
       "kable": ["424Z:cables_01", "24Z:cables_Ks", "401Ze:cables_02"],
-      "cement": ["408S:all", "206S_CEMET:cement_3", "206S_SPEED:cement_3"],
       "kruszywo": ["59WS:all"],
       "techniczne": ["209c", "304Ca", "102a_PKPE"],
-      "poczta": ["211K:all"]
+      "poczta": ["211K:all"],
+      "cement": ["408S:all", "206S_CEMET:cement_3", "206S_SPEED:cement_3"],
+      "wapno": ["408S:all", "206S_CEMET:lime_3", "206S_SPEED:lime_3"],
+      "soda": ["408S:all", "206S_CEMET:soda_3", "206S_SPEED:soda_3"],
+      "pszenica": ["206Sh_PKP_Ugpps:wheat_3", "206Sh_PKPC_Ugpps:wheat_3"],
+      "kukurydza": ["206Sh_PKP_Ugpps:corn_3", "206Sh_PKPC_Ugpps:corn_3"],
+      "pasza": ["206Sh_PKP_Ugpps:forage_3", "206Sh_PKPC_Ugpps:forage_3"]
     }
   },
 
@@ -310,7 +316,7 @@
       ["424Z_PKPC_Res_01", "424Z", true, null, "100"],
       ["424Z_PKPC_Res_02", "424Z", true, null, "100"],
 
-      ["426Z_PKPC_Smms_01", "426Z", true, true, "100"],
+      ["426Z_PKPC_Smms_01", "426Z", true, 1690851661000, "100"],
       ["426S_PKPC_Sis_01", "426S", true, null, "120"],
       ["426S_PKPC_Sis_02", "426S", true, null, "120"],
       ["426S_PKPC_Sis_03", "426S", true, null, "120"],
@@ -330,19 +336,20 @@
   },
 
   "props": [
-    { "type": "102E", "length": 16, "mass": 80, "cargo": null },
-    { "type": "203e", "length": 32, "mass": 167, "cargo": null },
-    { "type": "303e", "length": 16, "mass": 83, "cargo": null },
-    { "type": "303e-TV", "length": 16, "mass": 83, "cargo": null },
-    { "type": "303e-ZEZ", "length": 16, "mass": 83, "cargo": null },
-    { "type": "4e", "length": 16, "mass": 80, "cargo": null },
-    { "type": "4e-TV", "length": 16, "mass": 80, "cargo": null },
-    { "type": "4e-ZEZ", "length": 16, "mass": 80, "cargo": null },
-    { "type": "AEI E", "length": 16, "mass": 80, "cargo": null },
-    { "type": "6D", "length": 14, "mass": 74, "cargo": null },
-    { "type": "SPA-66", "length": 14, "mass": 23, "cargo": null },
-    { "type": "5B", "length": 65, "mass": 126, "cargo": null },
-    { "type": "5Bg", "length": 86, "mass": 182, "cargo": null },
+    { "type": "102E", "length": 16, "mass": 80, "cargo": null, "coldStart": false, "doubleManned": true },
+    { "type": "104E", "length": 17, "mass": 86.3, "cargo": null, "coldStart": false, "doubleManned": true },
+    { "type": "203e", "length": 32, "mass": 167, "cargo": null, "coldStart": true, "doubleManned": true },
+    { "type": "303e", "length": 16, "mass": 83, "cargo": null, "coldStart": true, "doubleManned": true },
+    { "type": "303e-TV", "length": 16, "mass": 83, "cargo": null, "coldStart": true, "doubleManned": true },
+    { "type": "303e-ZEZ", "length": 16, "mass": 83, "cargo": null, "coldStart": true, "doubleManned": true },
+    { "type": "4e", "length": 16, "mass": 80, "cargo": null, "coldStart": false, "doubleManned": true },
+    { "type": "4e-TV", "length": 16, "mass": 80, "cargo": null, "coldStart": false, "doubleManned": true },
+    { "type": "4e-ZEZ", "length": 16, "mass": 80, "cargo": null, "coldStart": false, "doubleManned": true },
+    { "type": "AEI E", "length": 16, "mass": 80, "cargo": null, "coldStart": false, "doubleManned": true },
+    { "type": "6D", "length": 14, "mass": 74, "cargo": null, "coldStart": false, "doubleManned": true },
+    { "type": "SPA-66", "length": 14, "mass": 23, "cargo": null, "coldStart": false, "doubleManned": false },
+    { "type": "5B", "length": 65, "mass": 126, "cargo": null, "coldStart": false, "doubleManned": false },
+    { "type": "5Bg", "length": 86, "mass": 182, "cargo": null, "coldStart": false, "doubleManned": false },
 
     { "type": "101a", "length": 25, "mass": 40, "cargo": null },
     { "type": "102a", "length": 25, "mass": 40, "cargo": null },
