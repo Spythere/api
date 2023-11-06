@@ -439,7 +439,7 @@
       "cargo": "wheels_01:39;woods_01:33;woods_2:43;rails_01:53;cables_01:36"
     },
 
-    { "type": "421S", "length:carbide_01": 12, "mass": 33, "cargo": "carbide_01:72" },
+    { "type": "421S", "length": 12, "mass": 33, "cargo": "carbide_01:72" },
     { "type": "425S", "length": 12, "mass": 23, "cargo": "mass_20:43;mass_30:53;mass_40:63" },
     { "type": "426Z", "length": 12, "mass": 20, "cargo": "none_2:20;tank_01:34;truck_01:27;vehicles_01:24" },
 
