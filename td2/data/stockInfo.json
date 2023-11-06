@@ -263,7 +263,7 @@
 
       ["206S_CEMET_Ucs_01", "206S", true, null, "100"],
       ["206S_SPEED_Ucs_01", "206S", true, null, "100"],
-      ["206Sh_PKP_Ugpps_01", "206Sh", true, null, "100"],
+      ["206Sh_PKP_Ugpps_02", "206Sh", true, null, "100"],
       ["206Sh_PKPC_Ugpps_01", "206Sh", true, null, "100"],
 
       ["208Kf_PKPC_Gbs_01", "208Kf", true, null, "100"],
