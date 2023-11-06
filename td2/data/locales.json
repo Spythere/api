@@ -25,7 +25,11 @@
       "soda": "soda",
       "pszenica": "pszenica",
       "kukurydza": "kukurydza",
-      "pasza": "pasza"
+      "pasza": "pasza",
+      "karbid": "karbid",
+      "pojazdy": "pojazdy",
+      "wrażliwe": "wrażliwe",
+      "stal": "stal"
     },
     "usage": {
       "Gor89": "wagon pasażerski",
@@ -100,7 +104,11 @@
       "soda": "soda",
       "pszenica": "wheat",
       "kukurydza": "corn",
-      "pasza": "fodder"
+      "pasza": "fodder",
+      "karbid": "carbide",
+      "pojazdy": "vehicles",
+      "wrażliwe": "sensitive",
+      "stal": "steel"
     },
     "usage": {
       "Gor89": "passenger carriage",
