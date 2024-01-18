@@ -31,7 +31,11 @@
       "soda": ["408S:all", "206S_CEMET:soda_3", "206S_SPEED:soda_3"],
       "pszenica": ["206Sh_PKP_Ugpps:wheat_3", "206Sh_PKPC_Ugpps:wheat_3"],
       "kukurydza": ["206Sh_PKP_Ugpps:corn_3", "206Sh_PKPC_Ugpps:corn_3"],
-      "pasza": ["206Sh_PKP_Ugpps:forage_3", "206Sh_PKPC_Ugpps:forage_3"]
+      "pasza": ["206Sh_PKP_Ugpps:forage_3", "206Sh_PKPC_Ugpps:forage_3"],
+      "pojazdy": ["426Z:tank_01", "426Z:truck_01", "426Z:vehicles_01"],
+      "karbid": ["421S:carbide_01"],
+      "wrażliwe": ["425S:all", "421S:carbide_01"],
+      "stal": ["401Ze:steel_01", "401Ze:steel_02"]
     }
   },
 
@@ -46,6 +50,26 @@
       ["EP09-024", "104E", "104e_cab", "160", 1701385200000],
       ["EP09-030", "104E", "104e_cab", "160", 1701385200000],
       ["EP09-034", "104E", "104e_cab", "160", 1701385200000],
+
+      ["EU07-182", "4e", "4e_cab", "125", null],
+      ["4E-069", "4e", "4e_cab", "125", null],
+      ["EU07-228", "4e", "4e_cab", "125", null],
+      ["EP07-384v2", "303e", "303e_cab_ld_grey", "125", null],
+      ["EU07-498", "303e", "303e_cab_ld", "125", null],
+      ["EU07-308", "303e", "303e_cab_ld", "125", null],
+      ["EU07-476", "303e", "303e_cab_ld", "125", null],
+      ["EU07-305", "303e", "303e_cab_ld_grey", "125", null],
+      ["EU07-307", "303e", "303e_cab_ld", "125", null],
+      ["EU07-475v2", "303e", "303e_cab_ld", "125", null],
+      ["EP07-376", "303e", "303e_cab_ld", "125", null],
+      ["EP07-374", "303e", "303e_cab_ld", "125", null],
+      ["EP07-500", "303e", "303e_cab_ld", "125", null],
+      ["EP07-395", "303e", "303e_cab_ld", "125", null],
+      ["EP07-338v2", "303e", "303e_cab_ld", "125", null],
+      ["EP07-408v2", "303e", "303e_cab_ld", "125", null],
+      ["EP07-383", "303e", "303e_cab_ld_grey", "125", null],
+      ["EP07-380", "303e", "303e_cab_ld_grey", "125", null],
+      ["EP07-381", "303e", "303e_cab_ld_grey", "125", null],
 
       ["EP08-006", "102E", "4ea_cab", "140", null],
       ["EP08-006v2", "102E", "4ea_cab", "140", null],
@@ -263,7 +287,7 @@
 
       ["206S_CEMET_Ucs_01", "206S", true, null, "100"],
       ["206S_SPEED_Ucs_01", "206S", true, null, "100"],
-      ["206Sh_PKP_Ugpps_01", "206Sh", true, null, "100"],
+      ["206Sh_PKP_Ugpps_02", "206Sh", true, null, "100"],
       ["206Sh_PKPC_Ugpps_01", "206Sh", true, null, "100"],
 
       ["208Kf_PKPC_Gbs_01", "208Kf", true, null, "100"],
@@ -276,7 +300,12 @@
       ["29R_PLPOL_Zaekk_01", "29R", true, null, "100"],
       ["29R_TM_Zaes_01", "29R", true, null, "100"],
       ["304Ca_PKP_Pdn_01", "304Ca", false, null, "140"],
+
+      ["401Ka_PKP_Gags-t_01", "401Ka", true, null, "100"],
+      ["401Ka_PKP_Gags-t_02", "401Ka", true, null, "100"],
+      ["401Ka_PKP_XGa_01", "401Ka", true, null, "100"],
       ["401Ka_PKPC_Gags-t_01", "401Ka", true, null, "100"],
+
       ["401Zb_PKESA_Rpps_01", "401Zb", true, null, "100"],
       ["401Zb_PKPC_Eamos_01", "401Zb", true, null, "100"],
       ["401Ze_KLP_Rmms_01", "401Ze", true, null, "100"],
@@ -313,10 +342,10 @@
       ["421S_PKP_Uas-x_02", "421S", true, 1690851661000, "100"],
       ["425S_PKPC_Simms_01", "425S", true, 1690851661000, "120"],
       ["425S_PKPC_Simms_02", "425S", true, 1690851661000, "120"],
+      ["426Z_PKPC_Smms_01", "426Z", true, 1690851661000, "100"],
+
       ["424Z_PKPC_Res_01", "424Z", true, null, "100"],
       ["424Z_PKPC_Res_02", "424Z", true, null, "100"],
-
-      ["426Z_PKPC_Smms_01", "426Z", true, 1690851661000, "100"],
       ["426S_PKPC_Sis_01", "426S", true, null, "120"],
       ["426S_PKPC_Sis_02", "426S", true, null, "120"],
       ["426S_PKPC_Sis_03", "426S", true, null, "120"],
@@ -379,7 +408,7 @@
     { "type": "29R", "length": 13, "mass": 23, "cargo": "mass_20:43;mass_30:53;mass_40:63" },
     { "type": "304c", "length": 25, "mass": 43, "cargo": null },
     { "type": "304Ca", "length": 25, "mass": 43, "cargo": null },
-    { "type": "401Ka", "length": 16, "mass": 23, "cargo": "mass_20:43;mass_30:53;mass_40:63" },
+    { "type": "401Ka", "length": 16, "mass": 22, "cargo": "mass_20:42;mass_30:52;mass_40:62" },
 
     {
       "type": "401Ze_KLP",
