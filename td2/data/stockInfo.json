@@ -9,7 +9,7 @@
     "cargo": {
       "kontenery": ["627Z:all", "412Z:all"],
       "chłodnia": ["202Lc:all"],
-      "drobnica": ["426S:all", "208Kf:all", "401Ka:all"],
+      "drobnica": ["426S:all", "208Kf:all", "401Ka_PKP_Gags:all", "401Ka_PKPC_Gags:all"],
       "węgiel": ["412W:coal_01", "413S:coal_Fas", "429W:coal_01", "401Zb:coal_02"],
       "ruda": ["412W:ore_01", "401Zl:ore_35", "429W:ore_01"],
       "piasek": ["412W:sand_01", "412W:sand_02", "413S:sand_Fas", "401Zl:sand_30", "429W:sand_01", "429W:sand_02", "401Zb:sand_03"],
@@ -24,7 +24,7 @@
       "szyny": ["424Z:rails_01"],
       "kable": ["424Z:cables_01", "24Z:cables_Ks", "401Ze:cables_02"],
       "kruszywo": ["59WS:all"],
-      "techniczne": ["209c", "304Ca", "102a_PKPE"],
+      "techniczne": ["209c", "304Ca", "102a_PKPE", "401Ka_PKP_XGa:all"],
       "poczta": ["211K:all"],
       "cement": ["408S:all", "206S_CEMET:cement_3", "206S_SPEED:cement_3"],
       "wapno": ["408S:all", "206S_CEMET:lime_3", "206S_SPEED:lime_3"],
@@ -303,7 +303,7 @@
 
       ["401Ka_PKP_Gags-t_01", "401Ka", true, null, "100"],
       ["401Ka_PKP_Gags-t_02", "401Ka", true, null, "100"],
-      ["401Ka_PKP_XGa_01", "401Ka", true, null, "100"],
+      ["401Ka_PKP_XGa_01", "401Ka_XGa", true, null, "100"],
       ["401Ka_PKPC_Gags-t_01", "401Ka", true, null, "100"],
 
       ["401Zb_PKESA_Rpps_01", "401Zb", true, null, "100"],
