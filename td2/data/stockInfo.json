@@ -20,7 +20,7 @@
       "melasa": ["29R_PLPOL:all"],
       "żwir": ["441V"],
       "koła": ["424Z:wheels_01"],
-      "drewno": ["424Z:woods_01", "424Z:woods_2"],
+      "drewno": ["424Z:woods_01", "424Z:woods_02"],
       "szyny": ["424Z:rails_01"],
       "kable": ["424Z:cables_01", "24Z:cables_Ks", "401Ze:cables_02"],
       "kruszywo": ["59WS:all"],
@@ -367,129 +367,499 @@
   },
 
   "props": [
-    { "type": "102E", "length": 16, "mass": 80, "cargo": null, "coldStart": false, "doubleManned": true },
-    { "type": "104E", "length": 17, "mass": 86.3, "cargo": null, "coldStart": false, "doubleManned": true },
-    { "type": "203e", "length": 32, "mass": 167, "cargo": null, "coldStart": true, "doubleManned": true },
-    { "type": "303e", "length": 16, "mass": 83, "cargo": null, "coldStart": true, "doubleManned": true },
-    { "type": "303e-TV", "length": 16, "mass": 83, "cargo": null, "coldStart": true, "doubleManned": true },
-    { "type": "303e-ZEZ", "length": 16, "mass": 83, "cargo": null, "coldStart": true, "doubleManned": true },
-    { "type": "4e", "length": 16, "mass": 80, "cargo": null, "coldStart": false, "doubleManned": true },
-    { "type": "4e-TV", "length": 16, "mass": 80, "cargo": null, "coldStart": false, "doubleManned": true },
-    { "type": "4e-ZEZ", "length": 16, "mass": 80, "cargo": null, "coldStart": false, "doubleManned": true },
-    { "type": "AEI E", "length": 16, "mass": 80, "cargo": null, "coldStart": false, "doubleManned": true },
-    { "type": "6D", "length": 14, "mass": 74, "cargo": null, "coldStart": false, "doubleManned": true },
-    { "type": "SPA-66", "length": 14, "mass": 23, "cargo": null, "coldStart": false, "doubleManned": false },
-    { "type": "5B", "length": 65, "mass": 126, "cargo": null, "coldStart": false, "doubleManned": false },
-    { "type": "5Bg", "length": 86, "mass": 182, "cargo": null, "coldStart": false, "doubleManned": false },
+    { "type": "102E", "length": 16, "mass": 80, "weight": 80000, "cargo": null, "cargoTypes": null, "coldStart": false, "doubleManned": true },
+    { "type": "104E", "length": 17, "mass": 86.3, "weight": 86300, "cargo": null, "cargoTypes": null, "coldStart": false, "doubleManned": true },
+    { "type": "203e", "length": 32, "mass": 167, "weight": 167000, "cargo": null, "cargoTypes": null, "coldStart": true, "doubleManned": true },
+    { "type": "303e", "length": 16, "mass": 83, "weight": 83400, "cargo": null, "cargoTypes": null, "coldStart": true, "doubleManned": true },
+    { "type": "303e-TV", "length": 16, "mass": 83, "weight": 83400, "cargo": null, "cargoTypes": null, "coldStart": true, "doubleManned": true },
+    { "type": "303e-ZEZ", "length": 16, "mass": 83, "weight": 83400, "cargo": null, "cargoTypes": null, "coldStart": true, "doubleManned": true },
+    { "type": "4e", "length": 16, "mass": 80, "weight": 80000, "cargo": null, "cargoTypes": null, "coldStart": false, "doubleManned": true },
+    { "type": "4e-TV", "length": 16, "mass": 80, "weight": 80000, "cargo": null, "cargoTypes": null, "coldStart": false, "doubleManned": true },
+    { "type": "4e-ZEZ", "length": 16, "mass": 80, "weight": 80000, "cargo": null, "cargoTypes": null, "coldStart": false, "doubleManned": true },
+    { "type": "AEI E", "length": 16, "mass": 80, "weight": 80000, "cargo": null, "cargoTypes": null, "coldStart": false, "doubleManned": true },
+    { "type": "6D", "length": 14, "mass": 74, "weight": 74000, "cargo": null, "cargoTypes": null, "coldStart": false, "doubleManned": true },
+    { "type": "SPA-66", "length": 14, "mass": 23, "weight": 23200, "cargo": null, "cargoTypes": null, "coldStart": false, "doubleManned": false },
+    { "type": "5B", "length": 65, "mass": 126, "weight": 126500, "cargo": null, "cargoTypes": null, "coldStart": false, "doubleManned": false },
+    { "type": "5Bg", "length": 86, "mass": 182, "weight": 182000, "cargo": null, "cargoTypes": null, "coldStart": false, "doubleManned": false },
 
-    { "type": "101a", "length": 25, "mass": 40, "cargo": null },
-    { "type": "102a", "length": 25, "mass": 40, "cargo": null },
-    { "type": "102A", "length": 25, "mass": 40, "cargo": null },
-    { "type": "111a", "length": 25, "mass": 40, "cargo": null },
-    { "type": "110a", "length": 25, "mass": 45, "cargo": null },
-    { "type": "112a", "length": 25, "mass": 40, "cargo": null },
-    { "type": "113a", "length": 25, "mass": 40, "cargo": null },
-    { "type": "120a", "length": 25, "mass": 45, "cargo": null },
-    { "type": "154a", "length": 26, "mass": 55, "cargo": null },
-    { "type": "158a", "length": 26, "mass": 50, "cargo": null },
-    { "type": "159a", "length": 26, "mass": 50, "cargo": null },
-    { "type": "59WS", "length": 9, "mass": 12, "cargo": "stone_Fll:35" },
-
-    { "type": "24Z", "length": 14, "mass": 14, "cargo": "cables_Ks:32" },
-    { "type": "202Lc", "length": 12, "mass": 16, "cargo": "meat_25%:20;meat_50%:24;meat_75%:29;meat_100%:33" },
-
-    { "type": "206S_CEMET", "length": 12, "mass": 14, "cargo": "lime_3:31;soda_3:35;cement_3:38" },
-    { "type": "206S_SPEED", "length": 12, "mass": 15, "cargo": "lime_3:32;soda_3:36;cement_3:39" },
-    { "type": "206Sh_PKP", "length": 12, "mass": 12, "cargo": "wheat_3:39;corn_3:39;forage_3:30" },
-    { "type": "206Sh_PKPC", "length": 12, "mass": 12, "cargo": "wheat_3:39;corn_3:39;forage_3:30" },
-
-    { "type": "220S_CEMET", "length": 9, "mass": 11, "cargo": "lime_3:28;soda_3:32;cement_3:36" },
-
-    { "type": "211K", "length": 12, "mass": 16, "cargo": "mail_25%:18;mail_50%:21;mail_75%:23;mail_100%:26" },
-
-    { "type": "208Kf", "length": 14, "mass": 15, "cargo": "mass_20:35;mass_30:45;mass_40:55" },
-    { "type": "209c", "length": 25, "mass": 43, "cargo": null },
-    { "type": "29R", "length": 13, "mass": 23, "cargo": "mass_20:43;mass_30:53;mass_40:63" },
-    { "type": "304C", "length": 25, "mass": 43, "cargo": null },
-    { "type": "304Ca", "length": 25, "mass": 43, "cargo": null },
-    { "type": "401Ka", "length": 16, "mass": 22, "cargo": "mass_20:42;mass_30:52;mass_40:62" },
+    { "type": "101a", "length": 25, "mass": 40, "weight": 40000, "cargo": null, "cargoTypes": null },
+    { "type": "102a", "length": 25, "mass": 40, "weight": 40000, "cargo": null, "cargoTypes": null },
+    { "type": "102A", "length": 25, "mass": 40, "weight": 40000, "cargo": null, "cargoTypes": null },
+    { "type": "111a", "length": 25, "mass": 40, "weight": 40000, "cargo": null, "cargoTypes": null },
+    { "type": "110a", "length": 25, "mass": 45, "weight": 45000, "cargo": null, "cargoTypes": null },
+    { "type": "112a", "length": 25, "mass": 40, "weight": 40000, "cargo": null, "cargoTypes": null },
+    { "type": "113a", "length": 25, "mass": 40, "weight": 40000, "cargo": null, "cargoTypes": null },
+    { "type": "120a", "length": 25, "mass": 45, "weight": 45000, "cargo": null, "cargoTypes": null },
+    { "type": "154a", "length": 26, "mass": 55, "weight": 55000, "cargo": null, "cargoTypes": null },
+    { "type": "158a", "length": 26, "mass": 50, "weight": 50000, "cargo": null, "cargoTypes": null },
+    { "type": "159a", "length": 26, "mass": 50, "weight": 50000, "cargo": null, "cargoTypes": null },
 
     {
-      "type": "401Ze_KLP",
+      "type": "202Lc",
       "length": 12,
-      "mass": 18.5,
-      "cargo": "none_2:18;cables_02:32;concrete_01:38;steel_01:69;steel_02:67"
+      "mass": 16,
+      "weight": 16500,
+      "cargo": "meat_25%:20;meat_50%:24;meat_75%:29;meat_100%:33",
+      "cargoTypes": [
+        { "id": "meat_25%", "weight": 4193 },
+        { "id": "meat_50%", "weight": 8386 },
+        { "id": "meat_75%", "weight": 12578 },
+        { "id": "meat_100%", "weight": 16771 }
+      ]
     },
+
     {
-      "type": "401Ze_PNUIK",
+      "type": "206S_SPEED",
       "length": 12,
-      "mass": 18.5,
-      "cargo": "none_2:18;cables_02:32;concrete_01:38;steel_01:69;steel_02:67"
+      "mass": 15,
+      "weight": 15000,
+      "cargo": "lime_3:32;soda_3:36;cement_3:39",
+      "cargoTypes": [
+        { "id": "cement_3", "weight": 24500 },
+        { "id": "lime_3", "weight": 17220 },
+        { "id": "soda_3", "weight": 21000 }
+      ]
     },
+
     {
-      "type": "401Ze_PKESA",
+      "type": "206S_CEMET",
       "length": 12,
-      "mass": 20,
-      "cargo": "none_2:20;cables_02:33;concrete_01:40;steel_01:71;steel_02:68"
+      "mass": 14,
+      "weight": 14100,
+      "cargo": "lime_3:31;soda_3:35;cement_3:38",
+      "cargoTypes": [
+        { "id": "cement_3", "weight": 24500 },
+        { "id": "lime_3", "weight": 17220 },
+        { "id": "soda_3", "weight": 21000 }
+      ]
     },
+
+    {
+      "type": "206Sh_PKP",
+      "length": 12,
+      "mass": 12,
+      "weight": 12500,
+      "cargo": "wheat_3:39;corn_3:39;forage_3:30",
+      "cargoTypes": [
+        { "id": "wheat_3", "weight": 26500 },
+        { "id": "corn_3", "weight": 26500 },
+        { "id": "forage_3", "weight": 18480 }
+      ]
+    },
+
+    {
+      "type": "206Sh_PKPC",
+      "length": 12,
+      "mass": 12,
+      "weight": 12500,
+      "cargo": "wheat_3:39;corn_3:39;forage_3:30",
+      "cargoTypes": [
+        { "id": "wheat_3", "weight": 26500 },
+        { "id": "corn_3", "weight": 26500 },
+        { "id": "forage_3", "weight": 18480 }
+      ]
+    },
+
+    {
+      "type": "208Kf",
+      "length": 14,
+      "mass": 15,
+      "weight": 15000,
+      "cargo": "mass_20:35;mass_30:45;mass_40:55",
+      "cargoTypes": [
+        { "id": "mass_20", "weight": 20000 },
+        { "id": "mass_30", "weight": 30000 },
+        { "id": "mass_40", "weight": 40000 }
+      ]
+    },
+
+    {
+      "type": "209c",
+      "length": 25,
+      "mass": 43,
+      "weight": 43000,
+      "cargo": null,
+      "cargoTypes": null
+    },
+
+    {
+      "type": "211K",
+      "length": 12,
+      "mass": 16,
+      "weight": 16500,
+      "cargo": "mail_25%:18;mail_50%:21;mail_75%:23;mail_100%:26",
+      "cargoTypes": [
+        { "id": "mail_25%", "weight": 2467 },
+        { "id": "mail_50%", "weight": 4933 },
+        { "id": "mail_75%", "weight": 7400 },
+        { "id": "mail_100%", "weight": 9867 }
+      ]
+    },
+
+    {
+      "type": "220S_CEMET",
+      "length": 9,
+      "mass": 11,
+      "weight": 11500,
+      "cargo": "lime_3:28;soda_3:32;cement_3:36",
+      "cargoTypes": [
+        { "id": "cement_3", "weight": 24500 },
+        { "id": "lime_3", "weight": 17220 },
+        { "id": "soda_3", "weight": 21000 }
+      ]
+    },
+
+    {
+      "type": "24Z",
+      "length": 14,
+      "mass": 14,
+      "weight": 14000,
+      "cargo": "cables_Ks:32",
+      "cargoTypes": [{ "id": "cables_Ks", "weight": 18800 }]
+    },
+
+    {
+      "type": "29R",
+      "length": 13,
+      "mass": 23,
+      "weight": 23000,
+      "cargo": "mass_20:43;mass_30:53;mass_40:63",
+      "cargoTypes": [
+        { "id": "mass_20", "weight": 20000 },
+        { "id": "mass_30", "weight": 30000 },
+        { "id": "mass_40", "weight": 40000 }
+      ]
+    },
+
+    { "type": "304C", "length": 25, "mass": 43, "weight": 43000, "cargo": null, "cargoTypes": null },
+    { "type": "304Ca", "length": 25, "mass": 43, "weight": 43000, "cargo": null, "cargoTypes": null },
+
+    {
+      "type": "401Ka",
+      "length": 16,
+      "mass": 22,
+      "weight": 21600,
+      "cargo": "mass_20:42;mass_30:52;mass_40:62",
+      "cargoTypes": [
+        { "id": "mass_20", "weight": 20000 },
+        { "id": "mass_30", "weight": 30000 },
+        { "id": "mass_40", "weight": 40000 }
+      ]
+    },
+
+    { "type": "59WS", "length": 9, "mass": 12, "weight": 12300, "cargo": "stone_Fll:35", "cargoTypes": [{ "id": "stone_Fll", "weight": 23500 }] },
+
     {
       "type": "401Zb_PKESA",
       "length": 12,
       "mass": 20,
-      "cargo": "stone_02:71;sand_03:63;coal_02:41"
+      "weight": 20000,
+      "cargo": "stone_02:71;sand_03:63;coal_02:41",
+      "cargoTypes": [
+        { "id": "coal_02", "weight": 20805 },
+        { "id": "sand_03", "weight": 43320 },
+        { "id": "stone_02", "weight": 51300 }
+      ]
     },
     {
       "type": "401Zb_PKPC",
       "length": 12,
       "mass": 19.4,
-      "cargo": "stone_02:71;sand_03:63;coal_02:40"
+      "weight": 19400,
+      "cargo": "stone_02:71;sand_03:63;coal_02:40",
+      "cargoTypes": [
+        { "id": "coal_02", "weight": 20805 },
+        { "id": "sand_03", "weight": 43320 },
+        { "id": "stone_02", "weight": 51300 }
+      ]
+    },
+    {
+      "type": "401Ze_KLP",
+      "length": 12,
+      "mass": 18.5,
+      "weight": 18500,
+      "cargo": "none_2:18;cables_02:32;concrete_01:38;steel_01:69;steel_02:67",
+      "cargoTypes": [
+        { "id": "none_2", "weight": 0 },
+        { "id": "cables_02", "weight": 13200 },
+        { "id": "concrete_01", "weight": 19800 },
+        { "id": "steel_01", "weight": 50760 },
+        { "id": "steel_02", "weight": 48420 }
+      ]
     },
 
-    { "type": "401Zl", "length": 12, "mass": 20, "cargo": "stone_25:45;sand_30:50;ore_35:55" },
-    { "type": "408S", "length": 14, "mass": 24, "cargo": "mass_20:44;mass_30:54;mass_40:64" },
+    {
+      "type": "401Ze_PNUIK",
+      "length": 12,
+      "mass": 18.5,
+      "weight": 18500,
+      "cargo": "none_2:18;cables_02:32;concrete_01:38;steel_01:69;steel_02:67",
+      "cargoTypes": [
+        { "id": "none_2", "weight": 0 },
+        { "id": "cables_02", "weight": 13200 },
+        { "id": "concrete_01", "weight": 19800 },
+        { "id": "steel_01", "weight": 50760 },
+        { "id": "steel_02", "weight": 48420 }
+      ]
+    },
+
+    {
+      "type": "401Ze_PKESA",
+      "length": 12,
+      "mass": 20,
+      "weight": 20000,
+      "cargo": "none_2:20;cables_02:33;concrete_01:40;steel_01:71;steel_02:68",
+      "cargoTypes": [
+        { "id": "none_2", "weight": 0 },
+        { "id": "cables_02", "weight": 13200 },
+        { "id": "concrete_01", "weight": 19800 },
+        { "id": "steel_01", "weight": 50760 },
+        { "id": "steel_02", "weight": 48420 }
+      ]
+    },
+
+    {
+      "type": "401Zl",
+      "length": 12,
+      "mass": 20,
+      "weight": 20000,
+      "cargo": "stone_25:45;sand_30:50;ore_35:55",
+      "cargoTypes": [
+        { "id": "stone_25", "weight": 25000 },
+        { "id": "sand_30", "weight": 30000 },
+        { "id": "ore_35", "weight": 35000 }
+      ]
+    },
+
+    {
+      "type": "408S",
+      "length": 14,
+      "mass": 24,
+      "weight": 24500,
+      "cargo": "mass_20:44;mass_30:54;mass_40:64",
+      "cargoTypes": [
+        { "id": "mass_20", "weight": 20000 },
+        { "id": "mass_30", "weight": 30000 },
+        { "id": "mass_40", "weight": 40000 }
+      ]
+    },
+
     {
       "type": "412W",
       "length": 14,
       "mass": 20,
-      "cargo": "coal_01:74;ore_01:55;sand_01:50;sand_02:45;scrap_01:65;scrap_02:65;stone_01:78;stone_50:75"
+      "weight": 20500,
+      "cargo": "coal_01:74;ore_01:55;sand_01:50;sand_02:45;scrap_01:65;scrap_02:65;stone_01:78;stone_50:75",
+      "cargoTypes": [
+        { "id": "coal_01", "weight": 54000 },
+        { "id": "ore_01", "weight": 35000 },
+        { "id": "sand_01", "weight": 30000 },
+        { "id": "scrap_01", "weight": 45000 },
+        { "id": "scrap_02", "weight": 45000 },
+        { "id": "stone_01", "weight": 58000 },
+        { "id": "stone_50", "weight": 55000 }
+      ]
     },
+
     {
       "type": "412Z",
       "length": 20,
       "mass": 22,
-      "cargo": "sc_40_red:47;sc_40_blue:47;sc_40_green:47;sc_40_APL:47;sc_40_CMA:47;sc_40_Cosco:47;sc_40_Evr1:47;sc_40_Evr2:47;sc_40_Finnlines:47;sc_40_Hamburg:47;sc_40_Hanjin:47;sc_40_HapagLloyd:47;sc_40_HMM:47;sc_40_KLine:47;sc_40_Maersk:47;sc_40_ONE:47;sc_40_OOCL:47;sc_40_Schavemaker:47;sc_40_TD2:47;sc_40_Titan:47;sc_40_Toll:47;sc_20_red:56;sc_20_blue:56;sc_20_green:56;sc_20_APL:56;sc_20_CMA:56;sc_20_Cosco:56;sc_20_Evr1:56;sc_20_Evr2:56;sc_20_Finnlines:56;sc_20_Hamburg:56;sc_20_Hanjin:56;sc_20_HapagLloyd:56;sc_20_HMM:56;sc_20_KLine:56;sc_20_Maersk:56;sc_20_ONE:56;sc_20_OOCL:56;sc_20_Schavemaker:56;sc_20_TD2:56;sc_20_Titan:56;sc_20_Toll:56"
+      "weight": 22000,
+      "cargo": "sc_40_red:47;sc_40_blue:47;sc_40_green:47;sc_40_APL:47;sc_40_CMA:47;sc_40_Cosco:47;sc_40_Evr1:47;sc_40_Evr2:47;sc_40_Finnlines:47;sc_40_Hamburg:47;sc_40_Hanjin:47;sc_40_HapagLloyd:47;sc_40_HMM:47;sc_40_KLine:47;sc_40_Maersk:47;sc_40_ONE:47;sc_40_OOCL:47;sc_40_Schavemaker:47;sc_40_TD2:47;sc_40_Titan:47;sc_40_Toll:47;sc_20_red:56;sc_20_blue:56;sc_20_green:56;sc_20_APL:56;sc_20_CMA:56;sc_20_Cosco:56;sc_20_Evr1:56;sc_20_Evr2:56;sc_20_Finnlines:56;sc_20_Hamburg:56;sc_20_Hanjin:56;sc_20_HapagLloyd:56;sc_20_HMM:56;sc_20_KLine:56;sc_20_Maersk:56;sc_20_ONE:56;sc_20_OOCL:56;sc_20_Schavemaker:56;sc_20_TD2:56;sc_20_Titan:56;sc_20_Toll:56",
+      "cargoTypes": [
+        { "id": "sc_20_red", "weight": 34000 },
+        { "id": "sc_20_blue", "weight": 34000 },
+        { "id": "sc_20_green", "weight": 34000 },
+        { "id": "sc_20_APL", "weight": 34000 },
+        { "id": "sc_20_CMA", "weight": 34000 },
+        { "id": "sc_20_Cosco", "weight": 34000 },
+        { "id": "sc_20_Evr1", "weight": 34000 },
+        { "id": "sc_20_Evr2", "weight": 34000 },
+        { "id": "sc_20_Finnlines", "weight": 34000 },
+        { "id": "sc_20_Hamburg", "weight": 34000 },
+        { "id": "sc_20_Hanjin", "weight": 34000 },
+        { "id": "sc_20_HapagLloyd", "weight": 34000 },
+        { "id": "sc_20_HMM", "weight": 34000 },
+        { "id": "sc_20_KLine", "weight": 34000 },
+        { "id": "sc_20_Maersk", "weight": 34000 },
+        { "id": "sc_20_ONE", "weight": 34000 },
+        { "id": "sc_20_OOCL", "weight": 34000 },
+        { "id": "sc_20_Schavemaker", "weight": 34000 },
+        { "id": "sc_20_TD2", "weight": 34000 },
+        { "id": "sc_20_Titan", "weight": 34000 },
+        { "id": "sc_40_red", "weight": 25000 },
+        { "id": "sc_40_blue", "weight": 25000 },
+        { "id": "sc_40_green", "weight": 25000 },
+        { "id": "sc_40_APL", "weight": 25000 },
+        { "id": "sc_40_CMA", "weight": 25000 },
+        { "id": "sc_40_Cosco", "weight": 25000 },
+        { "id": "sc_40_Evr1", "weight": 25000 },
+        { "id": "sc_40_Evr2", "weight": 25000 },
+        { "id": "sc_40_Finnlines", "weight": 25000 },
+        { "id": "sc_40_Hamburg", "weight": 25000 },
+        { "id": "sc_40_Hanjin", "weight": 25000 },
+        { "id": "sc_40_HapagLloyd", "weight": 25000 },
+        { "id": "sc_40_HMM", "weight": 25000 },
+        { "id": "sc_40_KLine", "weight": 25000 },
+        { "id": "sc_40_Maersk", "weight": 25000 },
+        { "id": "sc_40_ONE", "weight": 25000 },
+        { "id": "sc_40_OOCL", "weight": 25000 },
+        { "id": "sc_40_Schavemaker", "weight": 25000 },
+        { "id": "sc_40_TD2", "weight": 25000 },
+        { "id": "sc_40_Titan", "weight": 25000 },
+        { "id": "sc_40_Toll", "weight": 25000 }
+      ]
     },
-    { "type": "413S", "length": 14, "mass": 25, "cargo": "coal_Fas:69;sand_Fas:79;chalk_Fas:79" },
+
+    {
+      "type": "413S",
+      "length": 14,
+      "mass": 25,
+      "weight": 25300,
+      "cargo": "coal_Fas:69;sand_Fas:79;chalk_Fas:79",
+      "cargoTypes": [
+        { "id": "coal_Fas", "weight": 44000 },
+        { "id": "sand_Fas", "weight": 54000 },
+        { "id": "chalk_Fas", "weight": 54000 }
+      ]
+    },
+
+    {
+      "type": "421S",
+      "length": 12,
+      "mass": 33,
+      "weight": 33000,
+      "cargo": "carbide_01:72",
+      "cargoTypes": [{ "id": "carbide_01", "weight": 39000 }]
+    },
 
     {
       "type": "424Z",
       "length": 20,
       "mass": 23,
-      "cargo": "wheels_01:39;woods_01:33;woods_2:43;rails_01:53;cables_01:36"
+      "weight": 23500,
+      "cargo": "wheels_01:39;woods_01:33;woods_02:43;rails_01:53;cables_01:36",
+      "cargoTypes": [
+        { "id": "wheels_01", "weight": 16200 },
+        { "id": "woods_01", "weight": 10000 },
+        { "id": "woods_02", "weight": 20000 },
+        { "id": "rails_01", "weight": 30000 },
+        { "id": "cables_01", "weight": 13200 }
+      ]
     },
 
-    { "type": "421S", "length": 12, "mass": 33, "cargo": "carbide_01:72" },
-    { "type": "425S", "length": 12, "mass": 23, "cargo": "mass_20:43;mass_30:53;mass_40:63" },
-    { "type": "426Z", "length": 12, "mass": 20, "cargo": "none_2:20;tank_01:34;truck_01:27;vehicles_01:24" },
+    {
+      "type": "425S",
+      "length": 12,
+      "mass": 23,
+      "weight": 23000,
+      "cargo": "mass_20:43;mass_30:53;mass_40:63",
+      "cargoTypes": [
+        { "id": "mass_20", "weight": 20000 },
+        { "id": "mass_30", "weight": 30000 },
+        { "id": "mass_40", "weight": 40000 }
+      ]
+    },
 
-    { "type": "426S", "length": 20, "mass": 29, "cargo": "mass_20:49;mass_30:59;mass_40:69" },
+    {
+      "type": "426S",
+      "length": 20,
+      "mass": 29,
+      "weight": 29000,
+      "cargo": "mass_20:49;mass_30:59;mass_40:69",
+      "cargoTypes": [
+        { "id": "mass_20", "weight": 20000 },
+        { "id": "mass_30", "weight": 30000 },
+        { "id": "mass_40", "weight": 40000 }
+      ]
+    },
+
+    {
+      "type": "426Z",
+      "length": 12,
+      "mass": 20,
+      "weight": 20000,
+      "cargo": "none_2:20;tank_01:34;truck_01:27;vehicles_01:24",
+      "cargoTypes": [
+        { "id": "tank_01", "weight": 14400 },
+        { "id": "vehicles_01", "weight": 4000 },
+        { "id": "truck_01", "weight": 7350 },
+        { "id": "none_2", "weight": 0 }
+      ]
+    },
+
     {
       "type": "429W",
       "length": 14,
       "mass": 20,
-      "cargo": "coal_01:74;ore_01:55;sand_01:50;sand_02:45;scrap_01:65;scrap_02:65;stone_01:78;stone_50:75"
+      "weight": 20500,
+      "cargo": "coal_01:74;ore_01:55;sand_01:50;sand_02:45;scrap_01:65;scrap_02:65;stone_01:78;stone_50:75",
+      "cargoTypes": [
+        { "id": "coal_01", "weight": 54000 },
+        { "id": "ore_01", "weight": 35000 },
+        { "id": "sand_01", "weight": 30000 },
+        { "id": "scrap_01", "weight": 45000 },
+        { "id": "scrap_02", "weight": 45000 },
+        { "id": "stone_01", "weight": 58000 },
+        { "id": "stone_50", "weight": 55000 }
+      ]
     },
-    { "type": "441V", "length": 13, "mass": 26, "cargo": null },
-    { "type": "504a", "length": 25, "mass": 45, "cargo": null },
-    { "type": "612a", "length": 25, "mass": 43, "cargo": null },
+    { "type": "441V", "length": 13, "mass": 26, "weight": 26500, "cargo": null, "cargoTypes": null },
+    { "type": "504a", "length": 25, "mass": 45, "weight": 45000, "cargo": null, "cargoTypes": null },
+    { "type": "612a", "length": 25, "mass": 43, "weight": 43000, "cargo": null, "cargoTypes": null },
     {
       "type": "627Z",
       "length": 30,
       "mass": 29,
-      "cargo": "sc_40_red:79;sc_40_blue:79;sc_40_green:79;sc_40_APL:79;sc_40_CMA:79;sc_40_Cosco:79;sc_40_Evr1:79;sc_40_Evr2:79;sc_40_Finnlines:79;sc_40_Hamburg:79;sc_40_Hanjin:79;sc_40_HapagLloyd:79;sc_40_HMM:79;sc_40_KLine:79;sc_40_Maersk:79;sc_40_ONE:79;sc_40_OOCL:79;sc_40_Schavemaker:79;sc_40_TD2:79;sc_40_Titan:79;sc_40_Toll:79;sc_20_red:97;sc_20_blue:97;sc_20_green:97;sc_20_APL:97;sc_20_CMA:97;sc_20_Cosco:97;sc_20_Evr1:97;sc_20_Evr2:97;sc_20_Finnlines:97;sc_20_Hamburg:97;sc_20_Hanjin:97;sc_20_HapagLloyd:97;sc_20_HMM:97;sc_20_KLine:97;sc_20_Maersk:97;sc_20_ONE:97;sc_20_OOCL:97;sc_20_Schavemaker:97;sc_20_TD2:97;sc_20_Titan:97;sc_20_Toll:97"
+      "weight": 29000,
+      "cargo": "sc_40_red:79;sc_40_blue:79;sc_40_green:79;sc_40_APL:79;sc_40_CMA:79;sc_40_Cosco:79;sc_40_Evr1:79;sc_40_Evr2:79;sc_40_Finnlines:79;sc_40_Hamburg:79;sc_40_Hanjin:79;sc_40_HapagLloyd:79;sc_40_HMM:79;sc_40_KLine:79;sc_40_Maersk:79;sc_40_ONE:79;sc_40_OOCL:79;sc_40_Schavemaker:79;sc_40_TD2:79;sc_40_Titan:79;sc_40_Toll:79;sc_20_red:97;sc_20_blue:97;sc_20_green:97;sc_20_APL:97;sc_20_CMA:97;sc_20_Cosco:97;sc_20_Evr1:97;sc_20_Evr2:97;sc_20_Finnlines:97;sc_20_Hamburg:97;sc_20_Hanjin:97;sc_20_HapagLloyd:97;sc_20_HMM:97;sc_20_KLine:97;sc_20_Maersk:97;sc_20_ONE:97;sc_20_OOCL:97;sc_20_Schavemaker:97;sc_20_TD2:97;sc_20_Titan:97;sc_20_Toll:97",
+      "cargoTypes": [
+        { "id": "sc_20_red", "weight": 68000 },
+        { "id": "sc_20_blue", "weight": 68000 },
+        { "id": "sc_20_green", "weight": 68000 },
+        { "id": "sc_20_APL", "weight": 68000 },
+        { "id": "sc_20_CMA", "weight": 68000 },
+        { "id": "sc_20_Cosco", "weight": 68000 },
+        { "id": "sc_20_Evr1", "weight": 68000 },
+        { "id": "sc_20_Evr2", "weight": 68000 },
+        { "id": "sc_20_Finnlines", "weight": 68000 },
+        { "id": "sc_20_Hamburg", "weight": 68000 },
+        { "id": "sc_20_Hanjin", "weight": 68000 },
+        { "id": "sc_20_HapagLloyd", "weight": 68000 },
+        { "id": "sc_20_HMM", "weight": 68000 },
+        { "id": "sc_20_KLine", "weight": 68000 },
+        { "id": "sc_20_Maersk", "weight": 68000 },
+        { "id": "sc_20_ONE", "weight": 68000 },
+        { "id": "sc_20_OOCL", "weight": 68000 },
+        { "id": "sc_20_Schavemaker", "weight": 68000 },
+        { "id": "sc_20_TD2", "weight": 68000 },
+        { "id": "sc_20_Titan", "weight": 68000 },
+        { "id": "sc_40_red", "weight": 50000 },
+        { "id": "sc_40_blue", "weight": 50000 },
+        { "id": "sc_40_green", "weight": 50000 },
+        { "id": "sc_40_APL", "weight": 50000 },
+        { "id": "sc_40_CMA", "weight": 50000 },
+        { "id": "sc_40_Cosco", "weight": 50000 },
+        { "id": "sc_40_Evr1", "weight": 50000 },
+        { "id": "sc_40_Evr2", "weight": 50000 },
+        { "id": "sc_40_Finnlines", "weight": 50000 },
+        { "id": "sc_40_Hamburg", "weight": 50000 },
+        { "id": "sc_40_Hanjin", "weight": 50000 },
+        { "id": "sc_40_HapagLloyd", "weight": 50000 },
+        { "id": "sc_40_HMM", "weight": 50000 },
+        { "id": "sc_40_KLine", "weight": 50000 },
+        { "id": "sc_40_Maersk", "weight": 50000 },
+        { "id": "sc_40_ONE", "weight": 50000 },
+        { "id": "sc_40_OOCL", "weight": 50000 },
+        { "id": "sc_40_Schavemaker", "weight": 50000 },
+        { "id": "sc_40_TD2", "weight": 50000 },
+        { "id": "sc_40_Titan", "weight": 50000 },
+        { "id": "sc_40_Toll", "weight": 50000 }
+      ]
     },
-    { "type": "Bau84", "length": 26, "mass": 40, "cargo": null },
-    { "type": "Gor77", "length": 69, "mass": 132, "cargo": null },
-    { "type": "Gor89", "length": 27, "mass": 42, "cargo": null }
+    { "type": "Bau84", "length": 26, "mass": 40, "weight": 40000, "cargo": null, "cargoTypes": null },
+    { "type": "Gor77", "length": 69, "mass": 132, "weight": 132000, "cargo": null, "cargoTypes": null },
+    { "type": "Gor89", "length": 27, "mass": 42, "weight": 42400, "cargo": null, "cargoTypes": null }
   ]
 }
