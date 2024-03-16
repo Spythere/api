@@ -335,8 +335,8 @@
       ["412W_PKPC_Eaos_15", "412W", true, null, "100"],
       ["412W_PKPC_Eaos_16", "412W", true, null, "100"],
       ["412W_PKPC_Eaos_17", "412W", true, null, "100"],
-      ["412Z_PCCC_Sgs_01", "412Z", true, null, "120"],
-      ["412Z_PKPC_Sgs_01", "412Z", true, null, "120"],
+      ["412Z_PCCC_Sgs_01", "412Z", true, null, "100"],
+      ["412Z_PKPC_Sgs_01", "412Z", true, null, "100"],
       ["413S_PKPC_Fas_01", "413S", true, null, "100"],
       ["413S_PKPC_Fas_02", "413S", true, null, "100"],
 
